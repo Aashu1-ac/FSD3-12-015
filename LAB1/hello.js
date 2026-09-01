@@ -1,4 +1,4 @@
-console.log("Anuj Gupta");
+console.log("Aashu Chauhan");
 
 //write a function to take two number and return 
 // their sum
