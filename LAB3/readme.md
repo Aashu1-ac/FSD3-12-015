@@ -20,4 +20,24 @@ scalable network application and web servers.
 - 401 -> Unauthorized
 - 403 -> Forbidden
 - 404 -> Not Found
-- 500 -> Internal Server Error
+- 500 -> Internal Server Errorsa
+
+
+## server can send to the client
+1. html content ->prg2 , prg3
+2. html file -> prg5
+3. jsonn data ->prg4
+4. plain file
+5. js file
+6. any file to download
+7. etc
+
+## Type of information
+1. text/html->for html file/contents
+2. text/json->for json data
+3. text/css->for css file/contents
+4. application->for file
+5.text/plain -> for plain text file
+
+
+### note: .gitignor -> this files contains the list of files or folder that is not added to git, these files/folders will not push on Github
