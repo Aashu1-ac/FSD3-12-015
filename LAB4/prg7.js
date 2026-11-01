@@ -1,5 +1,4 @@
 import http from 'http'
-
 import {getUsers} from './users.js';
  const server = http.createServer((req,res)=>{
     if((req.url==='/api/users' && req.method==="GET")){
@@ -18,9 +17,9 @@ import {getUsers} from './users.js';
         res.end(JSON.stringify({msg: "remove 1"}));
     }
          else{
-            res.statusCode =404;
+            // res.statusCode =404;
             res.end();
          }
  });
 
- server.listen(3000,()=> console.log("prg7 is running"));
+ server.listen(3001,()=> console.log("prg7 is running"));  
